@@ -1,4 +1,4 @@
-//kilometerToMeter function here
+// kilometerToMeter function here
 function kilometerToMeter(kiloMeter) {
   var meter = 0;
   if (kiloMeter >= 0) {
@@ -10,7 +10,7 @@ function kilometerToMeter(kiloMeter) {
 }
 
 
-//budgetCalculator function here
+// budgetCalculator function here
 function budgetCalculator(watchCount, phoneCount, laptopCount) {
   var totalPrice = 0;
   if (watchCount >= 0 && watchCount == parseInt(watchCount) && phoneCount >= 0 && phoneCount == parseInt(phoneCount) && laptopCount >= 0 && laptopCount == parseInt(laptopCount)) {
@@ -22,7 +22,7 @@ function budgetCalculator(watchCount, phoneCount, laptopCount) {
 }
 
 
-//hotalCost function here
+// hotalCost function here
 function hotelCost(dayCount) {
   var totalHotelCost = 0;
   if (dayCount >= 0 && dayCount == parseInt(dayCount)) {
@@ -47,13 +47,13 @@ function hotelCost(dayCount) {
 }
 
 
-//megaFriend function here
+// megaFriend function here
 function megaFriend(friendArray) {
   var isStringArray = true;
   if (friendArray.length < 1) {
     isStringArray = false;
   }
-  for (i = 0; i < friendArray.length; i++) {
+  for (var i = 0; i < friendArray.length; i++) {
     if (typeof (friendArray[i]) !== "string") {
       isStringArray = false;
     }
